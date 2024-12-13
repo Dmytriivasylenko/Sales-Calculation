@@ -12,7 +12,7 @@ public class Main {
 
         //product n.1
         productName = "smartphone";
-        totalSales = 1345.34;
+        totalSales = 11345.34;
         dailySales = 3500.00;
 
         // Розрахунок
