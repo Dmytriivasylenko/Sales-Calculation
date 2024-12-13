@@ -12,13 +12,15 @@ public class Main {
 
         //product n.1
         productName = "smartphone";
-        totalSales = 11345.34;
-        dailySales = 3500.00;
+        //продажі
+        int product1 = 80;
+        double productPrice1 = 150.50;
+        int productDays1 = 5;
 
         // Розрахунок
 
-         totalSales = totalSales * dailySales;
-         dailySales = totalSales / dailySales;
+         totalSales = product1 * productPrice1;
+         dailySales = totalSales / productDays1;
 
         // Виведення через printf().
         // %n - перенесення на інший рядок.
@@ -32,13 +34,15 @@ public class Main {
         //product n.2
 
         productName = "laptop";
-        totalSales = 10486.85;
-        dailySales = 1498.12;
+        //продажі
+        int product2 = 20;
+        double productPrice2 = 934.65;
+        int productDays2 = 7;
 
         // Розрахунок
 
-        totalSales = totalSales * dailySales;
-        dailySales = totalSales / dailySales;
+        totalSales = product2 * productPrice2;
+        dailySales = totalSales / productDays2;
 
         // Виведення через printf().
         // %n - перенесення на інший рядок.
@@ -46,7 +50,7 @@ public class Main {
         // %.2f - float/double значення з округленням
         // до двох знаків після десяткового роздільника.
 
-        System.out.printf("Product No 2: %s,%ntotal sales for 14 days is %s %.2f,%nsales by day is %s %.2f.%n",
+        System.out.printf("Product No 2: %s,%ntotal sales for 7 days is %s %.2f,%nsales by day is %s %.2f.%n",
                 productName, CURRENCY, totalSales, CURRENCY, dailySales);
 
 
