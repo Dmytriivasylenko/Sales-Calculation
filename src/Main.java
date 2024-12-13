@@ -26,7 +26,7 @@ public class Main {
         // %.2f - float/double значення з округленням
         // до двох знаків після десяткового роздільника.
 
-        System.out.printf("Product No 1: %s,%n total sales for 5 days is %s %.2f,%n sales by day is %s %.2f.%n",
+        System.out.printf("Product No 1: %s,%ntotal sales for 5 days is %s %.2f,%nsales by day is %s %.2f.%n",
                 productName, CURRENCY, totalSales, CURRENCY, dailySales);
 
         //product n.2
@@ -46,7 +46,7 @@ public class Main {
         // %.2f - float/double значення з округленням
         // до двох знаків після десяткового роздільника.
 
-        System.out.printf("Product No 2: %s,%n total sales for 14 days is %s %.2f,%n sales by day is %s %.2f.%n",
+        System.out.printf("Product No 2: %s,%ntotal sales for 14 days is %s %.2f,%nsales by day is %s %.2f.%n",
                 productName, CURRENCY, totalSales, CURRENCY, dailySales);
 
 
